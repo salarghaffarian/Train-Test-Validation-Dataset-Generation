@@ -15,6 +15,35 @@ A picture of Patchify App is shown below:
 
 ![](PatchifyApp-image.png)
 
+### Parameters: 
+
+- **Input Image**: is the image whether it is raster or label image for cropping. 
+- **Export Folder**: is the directory for saving the generated cropped patches.
+- **Window Size**: is the size of the cropping window which is equal to the size of the generated small patches. (X is the sample's length in X direction and Y is their length in Y direction.)
+- **Stride**: is the step size of the moving window for generating the patches. It can move in different step sizes in X and Y directions.
+- **Output name**: is the constant part of the generated patches' name.
+- **Training Percentage**: is the percentage of Total generated patches goes into Training Dataset.
+- **Testing Percentage**: is the percentage of Total generated patches goes into Testing Dataset.
+- **Validation Percentage**: is the percentage of Total generated patches goes into Validation Dataset.
+- **Original Image**: is the original version of the cropped patch at the location of moving/sliding window.
+- **Rotate 90 Degrees**: is the version of original image rotated 90 degrees clockwise.
+- **Rotate 180 Degrees**: is the version of original image rotated 180 degrees clockwise.
+- **Rotate 270 Degrees**: is the version of original image rotated 270 degrees clockwise.
+- **Flip Vertically**: is the version of original image flipped vertically.
+- **Flip Horizontally**: is the version of original image flipped horizontally.
+- **Flip Verticall and Horizontally**: is the version of original image flipped both vertically and horizontally .
+
+- **Start Patching**: starts the patching operations based on the selected parameters.
+- **Cancel**: is the button for stopping the patching operations and/or closing the Patchify App.
+- Augmentation section has two buttoms. **All** button selects all the augmentation methods. In case a different format should be checked manually, the **Custom Selection** can be selected.
+
+
+### Important Notes:
+- if none of the Train, Testing, Validation percentages is filled, Then the Results will only produce Total cropped patches and the dataset spliting section won't run.
+- Make sure you have selected an image, the destination folder for storing and the generated patch name before pressing "Start Patchify" button.
+
+
+
 
 
 
