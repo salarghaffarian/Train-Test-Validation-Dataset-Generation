@@ -17,7 +17,7 @@ A picture of Patchify App is shown below:
 
 ### Parameters: 
 
-- **Input Image**: is the image whether it is raster or label image for cropping. 
+- **Input Image**: is the input large image need to be cropped into small patches. It can be whether raster or its label image. (The produced results will in the same format as the input image)
 - **Export Folder**: is the directory for saving the generated cropped patches.
 - **Window Size**: is the size of the cropping window which is equal to the size of the generated small patches. (X is the patch/cropped images' length in X direction and Y is their length in Y direction.)
 - **Stride**: is the step size of the moving window for generating the patches. It can move in different step sizes in X and Y directions.
