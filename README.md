@@ -43,6 +43,8 @@ A picture of Patchify App is shown below:
 - Make sure you have selected an image, the destination folder for storing and the generated patch name before pressing "Start Patchify" button.
 
 
+### Implementation:
+**patchify.py** is the only file you need to run. But before make sure you have installed all the required python libraries including opencv, PyQt5. Make sure that your pip is the latest version and ypur python is python 3.7
 
 
 
