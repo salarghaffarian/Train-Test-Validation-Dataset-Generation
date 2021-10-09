@@ -44,7 +44,7 @@ A picture of Patchify App is shown below:
 
 
 ### Implementation:
-**patchify.py** is the only file you need to run. But before make sure you have installed all the required python libraries including opencv, PyQt5. Make sure that your pip is the latest version and ypur python is python 3.7
+**patchify.py** is the only file you need to run. But before make sure you have installed all the required python libraries including _opencv_, _PyQt5_. Be sure to use the latest version of pip along with python 3.7
 
 
 
