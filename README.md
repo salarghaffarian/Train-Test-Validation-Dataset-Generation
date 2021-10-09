@@ -19,7 +19,7 @@ A picture of Patchify App is shown below:
 
 - **Input Image**: is the image whether it is raster or label image for cropping. 
 - **Export Folder**: is the directory for saving the generated cropped patches.
-- **Window Size**: is the size of the cropping window which is equal to the size of the generated small patches. (X is the sample's length in X direction and Y is their length in Y direction.)
+- **Window Size**: is the size of the cropping window which is equal to the size of the generated small patches. (X is the patch/cropped images' length in X direction and Y is their length in Y direction.)
 - **Stride**: is the step size of the moving window for generating the patches. It can move in different step sizes in X and Y directions.
 - **Output name**: is the constant part of the generated patches' name.
 - **Training Percentage**: is the percentage of Total generated patches goes into Training Dataset.
