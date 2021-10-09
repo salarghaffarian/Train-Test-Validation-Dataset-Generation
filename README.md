@@ -11,6 +11,10 @@ Functionalities: Patchify is capable of:
  - Augmenting the cropped dataset to expand the size of the training dataset and make the model to improve the model performance with better generalizing for unseen samples.
  - Dividing the created dataset into different Train, Test, and Validation dataset with user defined percentages.
 
+A picture of Patchify App is shown below:
+
+![](PatchifyApp-image.png)
+
 
 
 
