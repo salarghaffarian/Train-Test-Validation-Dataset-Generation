@@ -2,7 +2,7 @@
 
 ## App Name >> Patchify
 
-#### Description >> This app is designed for crop images and creating small patches of a large image e.g. Satellite/Aerial Images, which will then be used for training and testing Deep Learning models specifically **semantic segmentation** models.
+#### Description >> This app is designed for croping images and creating small patches of a large image e.g. Satellite/Aerial Images, which will then be used for training and testing Deep Learning models specifically **semantic segmentation** models.
 
 
 Functionalities: Patchify is capable of:
