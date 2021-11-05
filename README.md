@@ -46,6 +46,10 @@ A picture of Patchify App is shown below:
 ### Implementation:
 **patchify.py** is the only file you need to run. But before make sure you have installed all the required python libraries including _opencv_, _PyQt5_. Be sure to use the latest version of pip along with python 3.7
 
+### Requirements:
+**requirements.txt** is the file to install the specefic libraries that are used in this repository. It is possible to install them with this command : **pip install -r requirements.txt** or **pip install --upgrade -r requirements.txt**
+
+
 
 
 
